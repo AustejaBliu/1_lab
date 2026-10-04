@@ -31,9 +31,19 @@
         android:id="@+id/btnChangeColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="16dp"
         android:text="Pakeisti Spalva"
         app:layout_constraintEnd_toEndOf="@+id/btnChangeText"
         app:layout_constraintTop_toBottomOf="@+id/btnChangeText" />
+
+    <Button
+        android:id="@+id/btnChangeBgColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="Pakeisti Fona"
+        app:layout_constraintStart_toStartOf="@+id/btnChangeColor"
+        app:layout_constraintTop_toBottomOf="@+id/btnChangeColor" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,5 +30,10 @@ class MainActivity : AppCompatActivity() {
         btnChangeColor.setOnClickListener {
             textView.setTextColor(Color.GREEN)
         }
+        val btnChangeBgColor = findViewById<Button>(R.id.btnChangeBgColor)
+
+        btnChangeBgColor.setOnClickListener {
+            textView.setBackgroundColor(Color.BLUE)
+        }
     }
 }
