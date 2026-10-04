@@ -21,8 +21,19 @@
         android:id="@+id/btnChangeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
         android:text="Pakeisti Teksta"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="401dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult" />
+
+    <Button
+        android:id="@+id/btnChangeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="Pakeisti Spalva"
+        app:layout_constraintEnd_toEndOf="@+id/btnChangeText"
+        app:layout_constraintTop_toBottomOf="@+id/btnChangeText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
