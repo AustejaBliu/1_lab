@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         btnChangeBgColor.setOnClickListener {
             textView.setBackgroundColor(Color.BLUE)
         }
+
         //comment for revert
     }
 }
